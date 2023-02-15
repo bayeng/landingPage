@@ -1,0 +1,283 @@
+* {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+}
+
+.home {
+      height: 100vh;
+      width: 100%;
+      background-color: #f8f9fa;
+      
+}
+nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 8%;
+      padding-left: 8%;
+      background-color: rgb(255, 255, 255);
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.logo {
+      color: rgb(0, 0, 0);
+      font-size: 35px;
+      letter-spacing: 1px;
+      cursor: pointer;
+}
+
+span {
+      color: rgb(20, 148, 253);
+}
+
+nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px 25px;
+}
+
+nav ul li a {
+      color: rgb(0, 0, 0);
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: capitalize;
+}
+nav ul li a:hover{
+      color: rgb(20, 148, 253);
+      transition: 0.5s;
+}
+.btn {
+      background-color: rgb(20, 148, 253);
+      color: black;
+      border: 2px solid rgb(20, 148, 253);
+      font-weight: bold;
+      padding: 5px 15px;
+      border-radius: 30px;
+      transition: transform .5s;
+}
+.btn:hover{
+      transform: scale(1.2);
+      border: 2px solid rgb(20, 148, 253);
+      background-color: transparent;
+}
+.image{
+      width: 50%;
+      height: 90%;
+      position: absolute;
+      bottom: 0;
+      right: 30px;
+      
+}
+.image img{
+      height: 100%;
+      width: 70%;
+      position: absolute;
+      bottom: 0;
+      right: 25%;
+      transform: translateX(20%);
+}
+
+.content{
+      position: absolute;
+      top: 60%;
+      left: 8%;
+      transform: translateY(-50%);
+}
+h4 { 
+      color: #000000;
+      letter-spacing: 2px;
+      font-size: 20px;
+}
+h1 {
+      color: rgb(0, 0, 0);
+      font-size: 65px;
+      margin: 20px 0 20px;
+}
+h3 {
+      color: rgb(0, 0, 0);
+      font-size: 25px;
+      margin-bottom: 50px;
+}
+
+.content a {
+      font-size: 20px;
+      background: rgb(20, 148, 253);
+      color: white;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 30px;
+      border: 1px solid white;
+      transition: transform .5s;
+}
+.content a:hover{
+      transform: scale(1.1);
+      border: 1px solid white;
+      background-color: rgb(20, 148, 253);
+
+}
+.about{
+      width: 100%;
+      padding: 100px 0;
+      background-color: #ffffff;
+}
+.about-me {
+      width: 1130px;
+      max-width: 95%;
+      margin:auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.about-me img {
+      height: 500px;
+      width: 500px;
+      border-radius: 10px;
+      
+}
+.about-text {
+      width: 550px;
+      
+      
+}
+.about-text h2 {
+      color: black;
+      font-size: 65px;
+      text-transform: capitalize;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgb(0, 0, 255);
+
+}
+.about-text h5 {
+      color: black;
+      letter-spacing: 2px;
+      margin-bottom: 25px;
+      font-size: 30px;
+      text-transform: capitalize;
+      
+
+}
+.about-text p {
+      color: black;
+      letter-spacing: 1px;
+      line-height: 28px;
+      font-size: 18px;
+      margin-bottom: 45px;
+      text-align: justify;
+}
+.button {
+      background-color: #2937f0;
+      color: black;
+      border: 1px solid black;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 13px 30px;
+
+}
+.button:hover{
+      background-color: transparent;
+      border: 2px solid red;
+      cursor: pointer;
+}
+.project {
+      background-color: #f8f9fa;
+      width: 100%;
+      padding: 100px 0;
+
+}
+.title h2{
+      color: rgb(0, 0, 0);
+      font-size: 75px;
+      width: 100%;
+      margin-bottom: 30px auto;
+      text-align: center;
+}
+.box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+}
+.card {
+      height: 365px;
+      width: 335px;
+      padding: 20px 30px;
+      background: #ececec;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      border: 1px solid blue;
+}
+.card i {
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0;
+      color: blue;
+
+}
+.card h5 {
+      color: black;
+      font-size: 23px;
+      margin-bottom: 15px;
+}
+.pra p {
+      color: black;
+      font-size: 15px;
+      margin-bottom: 30px;
+}
+
+.list {
+      color: black;
+      
+}
+.list li {
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      font-weight: bold;
+}
+.contact-me {
+      width: 100%;
+      padding: 100px 0;
+      background-color: #101010;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+.contact-text h2 {
+      color: white;
+      font-size: 65px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+.contact-box {
+      color: white;
+
+}
+.contact-box:after{
+      content: '';
+      display: block;
+      clear: both;
+}
+.contact {
+      width: 25%;
+      padding: 50px;
+      box-sizing: border-box;
+      text-align: center;
+      float: left;
+}
+.contact h4 {
+      color: rgb(20, 148, 253);
+      padding-bottom: 10px;
+
+}
+.contact p{
+      font-size: 18px;
+}
